@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/112f5c7f08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "Subheader">
+        <nav>
+            <a href="index.html"><img src = "/Users/navkiran23/Desktop/images/pfp2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="education.html">Education</a>
+                        <a href="projects.html">Projects/More</a>
+                        <a href="Volunteer.html">Volunteering/Work</a>
+                        <a href="skills.html">Skills/Awards</a>
+                        <a href="socials.html">Socials</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars-progress" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Education</h1>
+    </section>
+
+    <!------Course------->
+    <section class="ed">
+        <h1>School Life</h1>
+        <p>brief information about me</p>
+
+        <div class="row">
+            <div class="edcol">
+                <h3>High School</h3>
+                <p> In high school I did Cross Country and Track (was not very good but it was great for getting in shape). It was the Most torturous
+                    yet best experience of my life. It was total torture sometimes when we would have to do long runs but it was all worth it in the end.
+                    I also was part of the International Bachelorette (IB) program at Modesto High, unfortunately due to moving I had to leave that incomplete
+                    My high school experience unlike many was the best time in my entire life. I made a lot of friends with people who actually matched my humor
+                    and energy.
+                </p>
+            </div>
+            <div class="edcol">
+                <h3>College</h3>
+                <p> I came to Washington and was informed about running start. A program to be able to get your HS diploma and Associates at the same time. I
+                    immediately accepted because I was a pretty smart student and could handle it. I had one and a half quarters there and then Covid hit. We 
+                    moved online and that was it for college, just finished the rest online. The highlight was getting awarded the global seal of biliteracy
+                    in spanish, out of many who took the test only a select amount passed, I was honored to be certified bilingual in spanish.
+                </p>
+            </div>
+            <div class="edcol">
+                <h3>University</h3>
+                <p> My acceptance into UW was the highlight of my life. I always wanted to go here even when I lived in California, seeing this dream become a
+                    reality was a feeling you can't describe. Being able to see in person the images I once saw online was a true feeling of accomplishment. UW 
+                    was back in person for my first quarter there, I was able to actually experience college life (limitedly of course-due to covid) but it has
+                    been great so far and I hope my remaining year and a half here is even better.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!----------Education----------->
+    <section class="Education">
+        <h1>Academic Career</h1>
+        <p>I earned my Associates Degree at Green River College. From there I am now pursuing a bachelors in CS at The University of Washington</p>
+        <div class="row">
+            <div class="Educ-col">
+                <img src="/Users/navkiran23/Desktop/images/school.png">
+                <div class="layer">
+                    <h3>Modesto High School & Enumclaw High School</h3>
+                </div>
+            </div>
+            <div class="Educ-col">
+                <img src="/Users/navkiran23/Desktop/images/GRC.png">
+                <div class="layer">
+                    <h3>Green River College</h3>
+                </div>
+            </div>
+            <div class="Educ-col">
+                <img src="/Users/navkiran23/Desktop/images/UW.png">
+                <div class="layer">
+                    <h3>University of Washington</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!----------footer----------->  
+    <section class="footer">
+        <h4>Social Media</h4>
+        <p>My socials where I post (very dry) updates about my life</p>
+        <div class="icons">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+
+    <!----------Javascript for toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+

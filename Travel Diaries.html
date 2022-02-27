@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/112f5c7f08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "Subheader">
+        <nav>
+            <a href="index.html"><img src = "/Users/navkiran23/Desktop/images/pfp2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="education.html">Education</a>
+                        <a href="projects.html">Projects/More</a>
+                        <a href="Volunteer.html">Volunteering/Work</a>
+                        <a href="skills.html">Skills/Awards</a>
+                        <a href="socials.html">Socials</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars-progress" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Travel Diaries</h1>
+    </section>
+    <!----------Volunteer-----------> 
+    <section class="Volunteerwork">
+        <h1>Vacations</h1>
+        <p></p>
+        <div class="row">
+            <div class="volcol">
+                <img src="/Users/navkiran23/Desktop/images/Haw1.png">
+            </div>
+            <div class="volcol">
+                <h3>India</h3>
+                <p>My family and I go to india every year (covid stopped that). India is so full of culture and the food there is 
+                    just so delicious. We usually spend a month there doing so many things like shopping in Jalandhar, going to the 
+                    malls in Chandigarh and much more!
+                </p>
+                <h3>Hawaii</h3>
+                <p>I went to Hawaii August of 2021. Hawaii is a very calming place to go vacation. I went to
+                    kahului and Maui. My family and I went to a volcano, along with an aquarium and more! It was
+                    one of the most beautiful places I have been to. However one wierd thing was that there were roosters
+                    everywhere.
+                </p>
+            </div>
+            <div class="volcol">
+                <img src="/Users/navkiran23/Desktop/images/Haw3.png">
+                <img src="/Users/navkiran23/Desktop/images/Haw2.png">
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----------footer----------->  
+    <section class="footer">
+        <h4>Social Media</h4>
+        <p>My socials where I post (very dry) updates about my life</p>
+        <div class="icons">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+
+    <!----------Javascript for toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+

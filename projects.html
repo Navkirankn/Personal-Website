@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/112f5c7f08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "Subheader">
+        <nav>
+            <a href="index.html"><img src = "/Users/navkiran23/Desktop/images/pfp2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="education.html">Education</a>
+                        <a href="projects.html">Projects/Blogs</a>
+                        <a href="Volunteer.html">Volunteering/Work</a>
+                        <a href="skills.html">Skills/Awards</a>
+                        <a href="socials.html">Socials</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars-progress" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Projects and More</h1>
+    </section>
+    <!----------Projects/Blogs----------->
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src = "/Users/navkiran23/Desktop/images/blog.png"></a>
+                <h2>Imposter Syndrome in CS</h2>
+                <p>I write blogs about two different topics, one is about my struggles as a cs student. I know a lot
+                    of student suffer from imposter syndrome and many others about where life will take them. I think of
+                    these blogs as a stress reliever and a way to dump my emotions and how I solved some of those problems.
+                    Along with more basic things like school life, applying to college and many other topics high school and
+                    college students may struggle with
+                </p>
+                <br>
+                <p>Another topic of my blog is minature guides to basic data structures. Simple functions and guides to help me
+                    and whoever else remember datastructures and topics related to cs. A blog is the perfect way to not only dispense
+                    information but also teach and reteach myself some of the things I may have forgotten. Occasionally when I have the
+                    time I will dive into topics I havent learned yet and try to expand my cs knowledge as cs is a field where you can never
+                    stop learning.
+                </p>
+                <h2>Projects I have done</h2>
+                <p> I began to code this website as a way to teach myself html and css while also creating a personalized portfolio for me.
+                    This quickly became one of the coding projects I am most proud of. Jumping into a new language and going for something this
+                    complex is not something advised but I wanted a challenge. One of the main issues was finding the right place to code, once 
+                    finding that since html was a new language I needed help on formatting texts getting the images loaded and many more issues.
+                    Formatting was the biggest issue in this project and I feel like I learned a lot from this project on formatting. Another reason
+                    why I loved making this webiste was because I got to learn some cool functions of html and CSS they are very cool languages and I 
+                    now want to use them more.
+                </p>
+                <br>
+                <p>A project I had so much issues in was a GUI animal fight simulation (code is on github). This project introduced GUI's which are extremely
+                    difficult to master. Figuring out the GUI's buttons and making the functions do the correct things at the buttons was a struggle. I think the
+                    biggest issue was a bug I encounteree while coding that would make the GUI load blank. I had to look into it for hours until I finally realized
+                    the issue was with a simple setvisual function error.
+                </p>
+            </div>
+            <div class="blog-right">
+                <h3> Goals for 2022 </h3>
+                <div>
+                    <span>Finish Creaing my app</span>
+                    <span>in-progress</span>
+                </div>
+                <div>
+                    <span>Gain some work experience in the industry</span>
+                    <span>not complete</span>
+                </div>
+                <div>
+                    <span>Visit a state I havent been to</span>
+                    <span>not complete</span>
+                </div>
+                <div>
+                    <span>Write a couplre research papers</span>
+                    <span>in-progress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------Projects/Blogs----------->
+    <section class="ProjectsBlogs">
+        <h1>Computer Science Projects and More</h1>
+        <p>Here is a quick overview of some fun stuff I have been working on</p>
+        <div class="row">
+            <!---<div class="projcol">
+                <img src="/Users/navkiran23/Desktop/images/blogger.png">
+                <h3>CS Diaries</h3>
+                <p>This is my blog where I talk about cs student struggles and make tiny guides to help remember data structures</p>
+            </div>--->
+            <div class="projcol">
+                <img src="/Users/navkiran23/Desktop/images/p4.png">
+                <h3>NAVigate ur day</h3>
+                <p>This is an in-progress application</p>
+            </div>
+            <div class="projcol">
+                <img src="/Users/navkiran23/Desktop/images/p7.png">
+                <h3>Coding this website</h3>
+                <p>This website was one of the bigger challenges I took on in my coding career</p>
+            </div>
+            <div class="projcol">
+                <img src="/Users/navkiran23/Desktop/images/p1.png">
+                <h3>Other mini Projects I have coded</h3>
+                <p>Looking under the projects and blogs page you will see more stuff i've done</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------footer----------->  
+    <section class="footer">
+        <h4>Social Media</h4>
+        <p>My socials where I post (very dry) updates about my life</p>
+        <div class="icons">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+
+    <!----------Javascript for toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
