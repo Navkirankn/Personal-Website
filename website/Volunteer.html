@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/112f5c7f08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "Subheader">
+        <nav>
+            <a href="index.html"><img src = "/Users/navkiran23/Desktop/images/pfp2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="education.html">Education</a>
+                        <a href="projects.html">Projects/More</a>
+                        <a href="Volunteer.html">Volunteering/Work</a>
+                        <a href="skills.html">Skills/Awards</a>
+                        <a href="socials.html">Socials</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars-progress" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Volunteering and Career</h1>
+    </section>
+    <!----------Volunteer-----------> 
+    <section class="Volunteerwork">
+        <h1>Volunteer Work</h1>
+        <p></p>
+        <div class="row">
+            <div class="volcol">
+                <img src="/Users/navkiran23/Desktop/images/gurudwara.png">
+                <h3>Punjabi School</h3>
+                <p>I myself went to this school for 8 years and then graduated and went on to teach children 
+                    there how to write speak and read in Punjabi. I was a teachers assistant while also substituting 
+                    for the teachers when they were unable to attend.</p>
+                    <img src="/Users/navkiran23/Desktop/images/p5.png">
+            </div>
+            <div class="volcol">
+                <h3>NightWatch</h3>
+                <p>During the pandemic, this group gave masks to those who couldn't afford them, I helped sew some masks
+                    and donated them to the cause.
+                </p>
+                <h3>Assistant stylist</h3>
+                <p>During most of my fathers music video shoots, I helped prepare the set, helping with equiptment and 
+                    helping him get styled. In the category of tasks there was, helping pick outfits, helping camera crew
+                    load and unload equpitment, touchups for makeup and more.
+                </p>
+                <h3>Starbucks Barista</h3>
+                <p>I worked as a starbukcs barista, it opened my eyes to how brutal people are. To be honest
+                    I knew the whole "world isn't nice" thing a while back but oh god did this job help me
+                    be more upfront. It really helped me develope a tough exterior and helped me develop skills like 
+                    communication and more.
+                    
+            </div>
+            <div class="volcol">
+                <img src="/Users/navkiran23/Desktop/images/starbucks.png">
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----------footer----------->  
+    <section class="footer">
+        <h4>Social Media</h4>
+        <p>My socials where I post (very dry) updates about my life</p>
+        <div class="icons">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+
+    <!----------Javascript for toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+

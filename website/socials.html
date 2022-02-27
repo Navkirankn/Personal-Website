@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/112f5c7f08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "Subheader">
+        <nav>
+            <a href="index.html"><img src = "/Users/navkiran23/Desktop/images/pfp2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="education.html">Education</a>
+                        <a href="projects.html">Projects/More</a>
+                        <a href="Volunteer.html">Volunteering/Work</a>
+                        <a href="skills.html">Skills/Awards</a>
+                        <a href="socials.html">Socials</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars-progress" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Socials</h1>
+    </section>
+    <!----------contact----------->
+    <section class="Media">
+        <div class="row">
+            <div class="socialcolumn">
+                <div>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <span>
+                        <h5>nav1123@icloud.com</h5>
+                        <p>Email Adress</p>
+                    </span>
+                </div>
+            </div>
+            <div class="socialcolumn">
+                <div>
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>
+                        <h5>Scorched</h5>
+                        <p>Youtube Account</p>
+                    </span>
+                </div>
+            </div>
+            <div class="socialcolumn">
+                <div>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>
+                        <h5>Navkiran N.</h5>
+                        <p>Linkedin Name</p>
+                    </span>
+                </div>
+            </div>
+            <div class="socialcolumn">
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <span>
+                        <h5>Navkiran23</h5>
+                        <p>Github</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!----------footer----------->  
+    <section class="footer">
+        <h4>Social Media</h4>
+        <p>My socials where I post (very dry) updates about my life</p>
+        <div class="icons">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+
+    <!----------Javascript for toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+

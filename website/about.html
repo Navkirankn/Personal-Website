@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/112f5c7f08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "Subheader">
+        <nav>
+            <a href="index.html"><img src = "/Users/navkiran23/Desktop/images/pfp2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="education.html">Education</a>
+                        <a href="projects.html">Projects/More</a>
+                        <a href="Volunteer.html">Volunteering/Work</a>
+                        <a href="skills.html">Skills/Awards</a>
+                        <a href="socials.html">Socials</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars-progress" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Me</h1>
+    </section>
+    <!----------about me stuff-----------> 
+    <section class="about-me">
+        <div class="row">
+            <div class="about-col">
+                <h1>Meet Navkiran</h1>
+                <p>Hi, my name is Navkiran. I am a CSE major at the University Of Washington. I think of myslef as a pretty extroverted person.
+                    My 16-Personalities result was ESFP. In my free time I like to watch TV, recently I have been going back and
+                    rewatching some childhood shows. I also have a hobby for writing songs. My father makes music and I like going
+                    along with him to his shoots and helping him pick out the perfect outfit. Something I can't get enough of is clothes
+                    I love to shop. Some things I want to learn are how to ride a motorcycle and archery.
+                </p>
+            </div>
+            <div class="about-col">
+                <img src ="/Users/navkiran23/Desktop/images/slade.png">
+            </div>
+        </div>
+    </section>
+
+    <!----------footer----------->  
+    <section class="footer">
+        <h4>Social Media</h4>
+        <p>My socials where I post (very dry) updates about my life</p>
+        <div class="icons">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+
+    <!----------Javascript for toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+

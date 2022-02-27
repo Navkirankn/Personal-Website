@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/112f5c7f08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "Subheader">
+        <nav>
+            <a href="index.html"><img src = "/Users/navkiran23/Desktop/images/pfp2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="education.html">Education</a>
+                        <a href="projects.html">Projects/More</a>
+                        <a href="Volunteer.html">Volunteering/Work</a>
+                        <a href="skills.html">Skills/Awards</a>
+                        <a href="socials.html">Socials</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars-progress" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Skills and awards</h1>
+    </section>
+
+    
+    <section class="skillset">
+        <h1>Awards</h1>
+        <p></p>
+        <div class="row">
+            <div class="skcol">
+                <h3>Global Seal of biliteracy</h3>
+                <p>I earned this global seal by taking part in a proctored exam. I was one of only select students out of my whole college that
+                    earned this award. It allows me to be bilteral in spanish and english (although I also know punjabi and Hindi)
+                </p>
+            </div>
+            <div class="skcol">
+                <img src = "/Users/navkiran23/Desktop/images/body.png"></a>
+            </div>
+            <div class="skcol">
+                <h3>1st Place: Speech and Debate</h3>
+                <p>Our school used to take us to speech competitions where my speech "Do Videogames cause Violence" won me first prize
+                </p>
+            </div>
+        </div>
+        <h1>Skills</h1>
+        <p></p>
+        <div class="row">
+            <div class="skcol">
+                <h3>Coding languages</h3>
+                <p>Java: 3.5/5<br>                    
+                    Python: 1/5<br>                    
+                    html: 2/5<br>                    
+                    CSS: 2/5<br>                   
+                    C: 2.5/5<br>                     
+                </p>
+            </div>
+            <div class="skcol">
+                <h3>IDE's and other editors</h3>
+                <p>                
+                    IntelliJ: 5/5<br>                 
+                    Eclipse: 2/5<br>                
+                    jGrasp: 5/5<br>               
+                    terminal: 3.5/5 <br>                  
+                    Visual Studio Code: 2/5<br>
+                    Latex: 3/5<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----------footer----------->  
+    <section class="footer">
+        <h4>Social Media</h4>
+        <p>My socials where I post (very dry) updates about my life</p>
+        <div class="icons">
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </section>
+
+    <!----------Javascript for toggle Menu----------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
