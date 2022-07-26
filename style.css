@@ -172,7 +172,7 @@ h3 {
     padding-top: 50px;
 }
 .Education p{
-    color:rgb(13, 22, 103);
+    color:rgb(0, 0, 0);
 }
 .Educ-col {
     flex-basis: 32%;
@@ -310,7 +310,7 @@ h3 {
     font-weight: 600;
 }
 .icons .fa-brands {
-    color:rgba(13, 22, 103);
+    color:rgb(255, 255, 255);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
@@ -410,7 +410,7 @@ h3 {
     color:rgb(0, 0, 0);
 }
 .blog-left p{
-    color:#0d0b72;
+    color:#000000;
     padding: 0;
 }
 .blog-right {
@@ -506,6 +506,6 @@ h3 {
 }
 body {
     background-color: rgba(255, 255, 255, 0);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(247, 242, 242, 0.7)), url(images/decor.png);
+    background-image: linear-gradient(rgba(95, 255, 148, 0.7),rgba(255, 255, 255, 0.7)), url(images/decor.png);
     background-position: center;
 }
